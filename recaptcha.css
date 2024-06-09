@@ -1,0 +1,31 @@
+/* reCaptcha */
+.grecaptcha-badge {
+  visibility: hidden;
+}
+
+.footer-recaptcha {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--axis-background);
+  font-size: 12px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px var(--disable-color);
+  height: 60px;
+  transition: transform 0.6s ease-in-out;
+}
+
+.footer-recaptcha a {
+  color: var(--secondary-color);
+}
+
+.footer-recaptcha img {
+  height: 50px;
+  width: auto;
+  margin-right: 10px;
+}
